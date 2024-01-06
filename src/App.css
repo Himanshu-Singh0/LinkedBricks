@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../public/fonts/LeagueSpartan-Regular.ttf') format('truetype');
+  /* Add other font formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../public/fonts/Exo-Regular.ttf') format('truetype');
+  /* Add other font formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('../public/fonts/LeagueSpartan-ExtraBold.ttf') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Additional styles for your project */
+body {
+  font-family: 'League Spartan', sans-serif; /* Use the imported font */
+}
+
+.header{
+  padding: 0px 100px 0px 100px;
+  width: auto;
+  height: 98px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.menu-bar-desktop {
+  display: flex;
+  
+}
+.nav-bar-button,.bar-button{
+  padding: 0px 12px 0px 12px;
+  border-radius: 1em;
+  background-color: #ffffff;
+  height: fit-content;
+  margin: 10px;
+  align-self: center;
+  font-size: 18px;
+}
+.menu-bar-desktop .nav-bar-button.clicked{
+  background-color: #ebfffd ;
+}
+.logo-navbar{    
+  height: 45px;
+  align-self: center;
+  position: absolute;
+  left: 120px;
+  
+}
+.header .add-listing{
+  align-items: center;
+  height: 45px;
+  align-self: center;
+  position: absolute;
+  right: 120px
+}
+.w-100{
+  width: 100vw;
+}
+.d-flex{
+  display: flex;
+}
+.p-10{
+  padding:10px
+}
+.ps-10{
+  padding: 0px 10px 0px 10px;
+}
+.ps-20{
+  padding: 0px 20px 0px 20px;
+}
+.p-3{
+  padding:3px;
+}
+.m-0{
+  margin:0px;
+}
+.w-24{
+  width: 24px;
+}
+.ms-10{
+  margin-left:10px;
+  margin-right:10px;
+}
+.yellow{
+  background-color: #e8ae00;
+}
+.sliding-box .big-text{
+  font-family: League Spartan Bold;
+  font-size: 110px;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-weight: bold;
+  max-width: 710px;
+  overflow-wrap: break-word;
+  margin: 1em 0em 0em 0em;
+}
+
+.sliding-box .small-text{
+  font-size: 32px;
+  position: absolute;
+  top: 58%;
+  left: 5%;
+  color: white;
+  font-weight: 600;
+  max-width: 702px;
+  overflow-wrap: break-word;
+}
+.sliding-box img{
+  filter: brightness(0.7);
+}
+
+.sliding-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: auto; /* Adjust this value based on your design */
+}
+
+.sliding-box {
+  flex: 0 0 100%;
+  width: 100%;
+  transition: transform 0.5s ease;
+  box-sizing: border-box;
+}
+
+.sliding-box.active {
+  transform: translateX(0);
+}
+
+.sliding-box:not(.active) {
+  transform: translateX(-100%); /* Change this to move the boxes to the left */
+}
+
+
+
+.button-container {
+  margin-top: 10px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+
+.button-container button {
+  background: none;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+.button-container button img {
+  width: 24px; /* Adjust the width of the image */
+  height: 24px; /* Adjust the height of the image */
+}
+
+
+.mid-search{
+  border-radius: 10px;
+  position: absolute;
+  background: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.spacer-mid{
+  width: 100%;
+  height: 150px;
+  /* height: 1680px; */
+  background-color: white;
+}
+.l-yellow{
+  background-color: #fff9e6;
+}
+.bg-l-yellow{
+  border: 2px solid #fff9e6;
+  border-radius: 10px;  
+}
+.featured-properties{
+  padding: 0% 5% 0% 5%;
+}
+.featured-properties .big-title{
+  font-size: 48px;
+  font-weight: bold;
+}
+.css-13cymwt-control,.css-13cymwt-control{
+  height: 50px;
+}
+.d-flex-row{
+  display: flex;
+  flex-direction: row ;
+}
+.d-flex-column{
+  display: flex;
+  flex-direction: column;
+}

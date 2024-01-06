@@ -1,0 +1,192 @@
+/* 
+    .property-box {
+    display: flex;
+    overflow-x: hidden;
+    transition: transform 0.5s ease; 
+  } 
+  */
+  
+  .property-box {
+    display: flex;
+    overflow-x: hidden;
+    transition: transform 0.5s ease;
+    margin-right: -10px; /* Adjust the margin to match your box margin */
+  }
+  
+  /* ... other styles remain unchanged ... */
+  
+  .left-right-buttons button {
+    background: white;
+    border: 2px solid #e8ae00;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 2px;
+  }
+  
+  .left-right-buttons {
+    text-align: right;
+  }
+  
+  .property {
+    position: relative;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+    transition: transform 0.5s ease; /* Add transition property */
+  }
+  
+  .property img {
+    height: auto;
+  }
+  
+  .property-stat-box {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 10px 16px;
+    background: var(--Shades-black, #0D0E0F);
+  }
+  
+  .property-stat-box p {
+    color: white;
+  }
+  
+  .p-16 {
+    padding: 16px;
+  }
+  
+  .font-price {
+    font-size: 32px;
+    margin: 0px;
+    font-family: 'Exo';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  .house-name {
+    overflow: hidden;
+    color: var(--Scooter-900, #135966);
+    text-overflow: ellipsis;
+    font-family: Exo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0.5em 0em;
+  }
+  
+  .address {
+    overflow: hidden;
+    color: var(--Shades-grey, #414141);
+    text-overflow: ellipsis;
+    font-family: Exo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .tag-status {
+    display: flex;
+    border-radius: 0px 12px 12px 0px;
+    position: absolute;
+    top: 31px;
+    background: white;
+    padding: 8px;
+  }
+  
+  .tag-status p {
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .tag1,
+  .tag2,
+  .tag3 {
+    display: flex;
+  }
+  
+  .like-prop {
+    position: absolute;
+    right: 17px;
+    top: 31px;
+  }
+  
+  .why-choose-us{
+    background: var(--Scooter-50, #EBFFFD);
+    display: flex;
+    width: auto;
+    padding: 40px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  .why-choose-us .main-box{
+    max-width: 100%;
+  }
+  .why-choose-us .title{
+  color: var(--Shades-black, #0D0E0F);
+    /* Header/H3/semibold */
+    font-family: Exo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+  }
+  .why-choose-us .box{
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    width: 48%; /* Adjust as needed, leaving space for margin or padding */
+    margin-bottom: 16px; /* Add spacing between rows, adjust as needed */
+    align-items: center;
+    max-width: 800px;
+    margin: 10px;
+  }
+
+  .why-choose-us .box .box-text{
+    padding: 0px 10px;
+  }
+  .why-choose-us .black-box{
+    justify-content: center;
+    width: 50px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    border-radius: 12px;
+    background: black;
+    height: 50px;
+    margin: 10px;
+    /* Card shadow_amb1 */
+    box-shadow: 0px 8px 11px -4px rgba(45, 54, 67, 0.04), 0px 20px 24px -4px rgba(255, 235, 176, 0.04);
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  .box-text .title{
+    color:black;
+
+    /* Body - copy/B4/semibold */
+    font-family: Exo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    margin: 2px;
+  }
+  .box-text .desc{
+    color: black;
+
+    /* Body - copy/B3/regular */
+    font-family: Exo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 2px;
+  }
